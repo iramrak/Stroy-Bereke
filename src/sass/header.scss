@@ -1,0 +1,334 @@
+ul{
+    display: flex;
+    gap: 25px;
+    color: #Fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    text-align: center;
+    color: #FFF;
+    padding: 4px;
+    h1{
+        font-size: 23px;
+        font-weight: 500;
+    }
+    h1 span{
+        font-size: 20px;
+        color: #CFD8E4;
+        padding: 2px;
+    }
+    
+}
+
+.contacts{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.tel__num{
+    text-align: right;
+    line-height: 18px;
+    h2{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    p{
+        font-size: 14px;
+        line-height: 12px;
+        padding-top: 6px;
+        color: #7E96BB;
+    }
+    .num{
+        display: flex;
+        gap: 5px;
+    }
+}
+
+
+.gmail__info{
+    text-align: right;
+    line-height: 18px;
+    h2{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    p{
+        font-size: 14px;
+        line-height: 12px;
+        padding-top: 6px;
+        color: #7E96BB;
+    }
+
+    .gmail{
+        display: flex;
+        gap: 5px;
+    }
+}
+
+.burger-menu__btn{
+    display: none;
+}
+
+.call-btn{
+    display: none
+}
+
+.burger-menu{
+    display: none;
+}
+
+.header__btn{
+    padding: 20px 50px;
+    color: #00205C;
+    background-color: #Fff;
+    border-radius: 38px;
+}
+
+@media(max-width: 1520px) {
+    .contacts{
+        h2{
+            font-size: 18px;
+        }
+        gap: 25px;
+    }
+    ul{
+        gap: 20px;
+        font-size: 18px;
+    }
+}
+
+
+
+@media(max-width: 1366px) {
+    .contacts{
+        h2{
+            font-size: 14px;
+            
+        }
+        .gmail img{
+            width: 16px;
+        }
+
+        .num img{
+            width: 16px;
+        }
+        gap: 20px;
+
+        .header__btn{
+            padding: 15px 40px;
+        }
+    }
+    ul{
+        gap: 15px;
+        font-size: 16px;
+    }
+    .logo{
+        img{
+            width: 56px;
+        }
+    
+        h1{
+            font-size: 19px;
+            font-weight: 500;
+        }
+    
+        h1 span{
+            font-size: 16px;
+            color: #CFD8E4;
+            padding: 2px;
+        }
+    }
+}
+
+@media(max-width: 1110px) {
+
+    .contacts{
+        h2{
+            font-size: 12px;
+            
+        }
+
+        p{
+            font-size: 12px;
+        }
+        gap: 16px;
+
+        .header__btn{
+            padding: 12px 30px;
+        }
+    }
+    ul{
+        gap: 10px;
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 862px) {
+    .contacts{
+        display: none;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    .burger-menu {
+        width: 57px;
+        height: 57px;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        background-color: #EC6B27;
+    }
+    
+    .burger-bar {
+        width: 20px;
+        height: 2px;
+        background-color: #Fff;
+        border-radius: 0.1em;
+    }
+    
+    .menu {
+        width: 92%;
+        height: 805px;
+        border-radius: 30px;
+        background-color: #FFf;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+    }
+    
+    .menu__nav{
+        color: #00205C;
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        font-size: 20px;
+        font-weight: 400;
+        padding: 50px 20px 60px 30px;
+    }
+
+    .menu__logo{
+        text-align: center;
+        color: #000000;
+        padding-top: 30px;
+        padding-right: 25px;
+
+    h1{
+        font-size: 21px;
+        font-weight: 500;
+    }
+    h1 span{
+        font-size: 18px;
+        color: #333333;
+        padding: 2px;
+    }
+    }
+    
+    .close-btn{
+        width: 57px;
+        height: 57px;
+        cursor: pointer;
+        position: absolute;
+        top: 18px;
+        right: 18px;
+        z-index: 1;
+        }
+    
+    .call-btn{
+        display: flex;
+        width: 57px;
+    }
+
+    .menu__conatacts{
+        display: flex;
+
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px 30px;
+        color: #00205C;
+
+        p{
+            font-size: 14px;
+            font-weight: 400;
+            padding-left: 22px;
+        }
+        .b-num{
+            display: flex;
+            gap: 5px;
+            h2{
+                font-size: 20px;
+                font-weight: 500;
+            }
+            img{
+                width: 21px;
+                height: 21px;
+            }
+        }
+        .b-mail{
+            display: flex;
+            gap: 5px;
+            h2{
+                font-size: 20px;
+                font-weight: 500;
+            }
+            img{
+                width: 21px;
+                height: 21px;
+            }
+        }
+        .b-btns{
+            padding-top: 40px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            .b-btn{
+                padding: 15px 37px;
+                background-color: #00205C;
+                border-radius: 30px;
+                color: #FFf;
+            }
+            .b-wapp-btn{
+                padding: 15px;
+                background-color: #00205C;
+                border-radius: 30px;
+            }
+        }
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+
+@media (max-width: 390px) {
+    
+}
