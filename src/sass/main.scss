@@ -73,19 +73,20 @@
         h1{
             font-size: 36px;
         }
+        .main-def__btn{
+            width: 265px;
+            height: 65px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            background-color: #48719A;
+            border-radius: 6px;
+            font-size: 14px;
+            color: #FFf;
+        }
     }
-    .main-def__btn{
-        width: 265px;
-        height: 65px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-        background-color: #48719A;
-        border-radius: 6px;
-        font-size: 14px;
-        color: #FFf;
-    }
+    
 }
 
 @media(max-width: 768px) {
@@ -101,21 +102,28 @@
 @media(max-width: 522px) {
     .main__content{
         h1{
-            width: 330px;
+            width: 306px;
+            line-height: 40px;
+            letter-spacing: -0.3px;
             font-size: 30px;
         }
+        .main-def__btn{
+            width: 200px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 9px;
+            background-color: #48719A;
+            border-radius: 3px;
+            font-size: 12px;
+            color: #FFf;
+
+            img{
+                width: 40px;
+            }
+        }
     }
-    .main-def__btn{
-        width: 201px;
-        height: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 9px;
-        background-color: #48719A;
-        border-radius: 3px;
-        font-size: 12px;
-        color: #FFf;
-    }
+   
 }
 

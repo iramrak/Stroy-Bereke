@@ -229,7 +229,7 @@ ul{
         gap: 35px;
         font-size: 20px;
         font-weight: 400;
-        padding: 50px 20px 60px 30px;
+        padding: 20px 20px 50px 30px;
     }
 
     .menu__logo{
@@ -253,12 +253,12 @@ ul{
     }
     
     .close-btn{
-        width: 57px;
-        height: 57px;
+        width: 37px;
+        height: 37px;
         cursor: pointer;
         position: absolute;
-        top: 18px;
-        right: 18px;
+        top: 30px;
+        right: 30px;
         z-index: 1;
         }
     
@@ -271,8 +271,8 @@ ul{
         display: flex;
 
         flex-direction: column;
-        gap: 30px;
-        padding: 30px 30px;
+        gap: 25px;
+        padding: 1px 30px;
         color: #00205C;
 
         p{
@@ -305,7 +305,7 @@ ul{
             }
         }
         .b-btns{
-            padding-top: 40px;
+            padding-top: 20px;
             display: flex;
             align-items: center;
             gap: 10px;
