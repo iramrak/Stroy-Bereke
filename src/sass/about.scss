@@ -1,0 +1,161 @@
+.about{
+    margin-top: 150px;
+
+    .mini-title{
+        text-align: center;
+        color: #B8C1D2;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+
+    .about__title{
+        text-align: center;
+        font-size: 61px;
+        font-weight: 500;
+        color: #00205C;
+        
+        span{
+            text-decoration: underline;
+            color: #FF7629;
+        }
+    }
+}
+
+.about__cards{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding: 40px 20px;
+    width: 460px;
+    height: 370px;
+    background-image: url('../../public/image/cards-bg.svg');
+    border-radius: 16px;
+
+    p{
+        font-size: 25px;
+        font-weight: 400;
+        color: #00205C;
+        line-height: 35px;
+        letter-spacing: -0.5px;
+    }
+    
+}
+
+.two{
+    margin-top: 91px;
+}
+
+.three{
+    margin-top: 51px;
+}
+
+.four{
+    background-repeat: no-repeat;
+    background-image: url('../../public/image/card-four-bg.png');
+    p{
+        color: #FFf;
+    }
+    .about-call__btn{
+        width: 184px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url('../../public/image/abour-call-btn.svg');
+        p{
+        color: #00205C;
+        font-size: 16px;
+        font-weight: 400;
+        }
+    }
+}
+
+@media(max-width: 1520px){
+    .about{
+        .about__title{
+            font-size: 52px;
+        }
+    }
+    .four{
+        width: 450px;
+    }
+}
+
+@media (max-width: 1024px){
+    .about{
+        .about__title{
+            font-size: 42px;
+        }
+    }
+    .four{
+        width: 350px;
+    }
+}
+@media(max-width: 862px){
+    .about{
+        .about__title{
+            font-size: 42px;
+            margin-bottom: 40px;
+        }
+    }
+    .four{
+        width: 460px;
+        display: flex;
+    }
+    .about__cards{
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .two{
+        margin-top: 0px;
+    }
+    .three{
+        margin-top: 0px;
+    }
+}
+
+@media(max-width: 480px){
+    .about{
+        .about__title{
+            text-align: center;
+            font-size: 32px;
+            width: 94%;
+            margin: auto;
+            margin-bottom: 40px;
+        }
+    }
+    .card{
+        width: 355px;
+        height: 180px;
+
+        p{
+            padding-top: 25px;
+            font-size: 16px;
+            line-height: 20px;
+        }
+        .card__img{
+            width: 50px;
+            height: 50px;
+        }
+    }
+    .four{
+        .about-call__btn{
+            font-size: 12px;
+            width: 140px;
+            height: 38px;
+        }
+    }
+}

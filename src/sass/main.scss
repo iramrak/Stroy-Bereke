@@ -6,8 +6,8 @@
 
     width: 100%;
     height: 882px;
+    padding: 30px;
 
-    padding: 40px;
     color: #Fff;
 }
 
@@ -51,11 +51,6 @@
     }
 }
 
-@media (max-width: 1024px) {
-    .main{
-        padding: 10px
-    }
-}
 
 @media(max-width: 1110px) {
     .main__content{
@@ -68,6 +63,10 @@
 }
 
 @media(max-width: 862px) {
+    .main{
+        padding: 10px;
+        height: 628px;
+    }
     .main__content{
         margin-top: 114px;
 
@@ -102,7 +101,7 @@
 @media(max-width: 522px) {
     .main__content{
         h1{
-            width: 299px;
+            width: 330px;
             font-size: 30px;
         }
     }
