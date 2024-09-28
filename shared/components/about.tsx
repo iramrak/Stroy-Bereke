@@ -2,6 +2,7 @@ import '../../src/sass/about.scss';
 import storei from '../../public/image/strore-icon.svg';
 import tg from '../../public/image/tg-icon.svg';
 import kar from '../../public/image/kar-icon.svg';
+import arrow from '../../public/image/arrow.svg'
 
 export const About = () => {
   return (
@@ -10,12 +11,12 @@ export const About = () => {
             <p>[01] - О компании</p>
         </div>
         <div className="about__title">
-            <h2><span>БерекеСтрой</span>  — ваш надежный <br />поставщик стройматериалов с  <br />широким ассортиментом</h2>
+            <h2><span>БерекеСтрой</span>  — ваш надежный поставщик <br /> стройматериалов с  <br />широким ассортиментом</h2>
         </div>
         <div className="about__cards">
             <div className="card one">
                 <div className="card__img">
-                    <img src={storei} alt="storei" />
+                    <img src={kar} alt="storei" />
                 </div>
                 <p>Широкий ассортимент стройматериалов для вашего бизнеса</p>
             </div>
@@ -27,14 +28,15 @@ export const About = () => {
             </div>
             <div className="card three">
                 <div className="card__img">
-                    <img src={kar} alt="kar" />
+                    <img src={storei} alt="kar" />
                 </div>
                 <p>Все материалы в наличии <br />в Астане для быстрой отправки</p>
             </div>
             <div className="card four">
                 <a href="#">
                     <div className="about-call__btn">
-                        Написать нам
+                        <p>Написать нам</p>
+                        <img src={arrow} alt="arrow" />
                     </div>
                 </a>
                 <p>Остались вопросы ?  <br />Свяжитесь с нами по WhatsApp</p>

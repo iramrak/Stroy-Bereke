@@ -1,5 +1,6 @@
 .assortment{
     margin-top: 113px;
+    margin-bottom: 200px;
     display: flex;
     flex-direction: column;
 
@@ -69,6 +70,7 @@
 @media(max-width: 1540px){
     .assortment{
         margin-top: 100px;
+        margin-bottom: 165px;
     }
 
     .a-card{
@@ -100,6 +102,7 @@
 @media(max-width: 1440px){
     .assortment{
         margin-top: 100px;
+        margin-bottom: 145px;
     }
 
     .a-card{
@@ -131,6 +134,7 @@
 @media(max-width: 1240px){
     .assortment{
         margin-top: 90px;
+        margin-bottom: 122px;
     }
 
     .a-title{
@@ -165,6 +169,7 @@
 @media(max-width: 1024px){
     .assortment{
         margin-top: 80px;
+        margin-bottom: 102px;
     }
 
     .a-title{
@@ -200,6 +205,7 @@
     .assortment{
         margin: auto;
         margin-top: 70px;
+        margin-bottom: 82px;
     }
 
     .a-title{
@@ -241,18 +247,27 @@
 }
 
 @media(max-width: 390px){
+    .assortment{
+        margin-bottom: 52px;
+    }
+
+    .a-sub-title{
+        margin-bottom: 5px;
+    }
+
     .a-title{
         font-size: 30px;
+        margin-bottom: 40px;
     }
 
     .a-card{
         width: 355px;
-        height: 320px;
+        height: 335px;
         padding: 20px;
 
         h1{
-            font-size: 16px;
-            line-height: 20px;
+            font-size: 18px;
+            line-height: 24px;
             padding-top: 15px;
             padding-left: 30px;
         }
@@ -263,13 +278,13 @@
     }
 
     .first-row{
-        height: 320px;
+        height: 330px;
         align-items: center;
         flex-direction: column;
     }
 
     .second-row{
-        height: 320px;
+        height: 330px;
         align-items: center;
         flex-direction: column;
     }

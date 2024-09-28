@@ -43,7 +43,7 @@
 
     p{
         font-size: 25px;
-        font-weight: 400;
+        font-weight: 500;
         color: #00205C;
         line-height: 35px;
         letter-spacing: -0.5px;
@@ -71,6 +71,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        gap: 13px;
         background-image: url('../../public/image/abour-call-btn.svg');
         p{
         color: #00205C;
@@ -132,18 +133,22 @@
     .about{
         .about__title{
             text-align: center;
-            font-size: 32px;
-            width: 94%;
+            font-size: 30px;
+            width: 100%;
             margin: auto;
             margin-bottom: 40px;
         }
     }
+
+    .hidden{
+        display: none;
+    }
+
     .card{
         width: 355px;
         height: 180px;
 
         p{
-            padding-top: 25px;
             font-size: 16px;
             line-height: 20px;
         }
