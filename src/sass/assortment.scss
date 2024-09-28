@@ -1,0 +1,280 @@
+.assortment{
+    margin-top: 113px;
+    display: flex;
+    flex-direction: column;
+
+    .a-sub-title{
+        text-align: center;
+    }
+
+    .a-title{
+        text-align: center;
+    }
+}
+
+.a-sub-title{
+    font-size: 16px;
+    font-weight: 400;
+    color: #B8C1D2;
+    margin-bottom: 20px;
+}
+
+.a-title{
+    font-size: 61px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 100px;
+    span{
+        text-decoration: underline;
+        color: #FF7629;
+    }
+}
+
+.a-card{
+    width: 620px;
+    height: 560px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-image: url('../../public/image/a-card-bg.svg');
+    padding: 20px;
+    
+    h1{
+        padding-top: 24px;
+        padding-left: 82px;
+        font-size: 31px;
+        line-height: 37px;
+        letter-spacing: -0.6px;
+        font-weight: 500;
+        color: #00205C;
+    }
+
+}
+
+.first-row{
+    display: flex;
+    gap: 20px;
+}
+
+.second-row{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.space{
+    width: 620px;
+    height: 588px;
+}
+
+@media(max-width: 1540px){
+    .assortment{
+        margin-top: 100px;
+    }
+
+    .a-card{
+        height: 460px;
+        padding: 20px;
+
+        h1{
+            font-size: 26px;
+            line-height: 27px;
+            padding-left: 48px;
+            padding-top: 25px;
+        }
+    }
+
+    .first-row{
+        height: 460px;
+    }
+
+    .second-row{
+        height: 460px;
+    }
+
+    .a-title{
+        margin-bottom: 60px;
+    }
+}
+
+
+@media(max-width: 1440px){
+    .assortment{
+        margin-top: 100px;
+    }
+
+    .a-card{
+        height: 400px;
+        padding: 20px;
+
+        h1{
+            font-size: 22px;
+            line-height: 27px;
+            padding-left: 48px;
+            padding-top: 25px;
+        }
+    }
+
+    .first-row{
+        height: 400px;
+    }
+
+    .second-row{
+        height: 400px;
+    }
+
+    .a-title{
+        margin-bottom: 60px;
+    }
+}
+
+
+@media(max-width: 1240px){
+    .assortment{
+        margin-top: 90px;
+    }
+
+    .a-title{
+        font-size: 52px;
+    }
+
+    .a-card{
+        height: 377px;
+        padding: 20px;
+
+        h1{
+            font-size: 22px;
+            line-height: 27px;
+            padding-left: 42px;
+            padding-top: 20px;
+        }
+    }
+
+    .first-row{
+        height: 377px;
+    }
+
+    .second-row{
+        height: 377px;
+    }
+
+    .a-title{
+        margin-bottom: 60px;
+    }
+}
+
+@media(max-width: 1024px){
+    .assortment{
+        margin-top: 80px;
+    }
+
+    .a-title{
+        font-size: 42px;
+    }
+
+    .a-card{
+        height: 322px;
+        padding: 20px;
+
+        h1{
+            font-size: 22px;
+            line-height: 27px;
+            padding-top: 18px;
+            padding-left: 42px;
+        }
+    }
+
+    .first-row{
+        height: 322px;
+    }
+
+    .second-row{
+        height: 322px;
+    }
+
+    .a-title{
+        margin-bottom: 60px;
+    }
+}
+
+@media(max-width: 862px){
+    .assortment{
+        margin: auto;
+        margin-top: 70px;
+    }
+
+    .a-title{
+        font-size: 36px;
+    }
+
+    .a-card{
+        width: 375px;
+        height: 345px;
+        padding: 20px;
+
+        h1{
+            font-size: 22px;
+            line-height: 24px;
+            padding-top: 15px;
+            padding-left: 10px;
+        }
+
+        img{
+            width: 355px;
+        }
+    }
+
+    .first-row{
+        height: 320px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .second-row{
+        height: 320px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .a-title{
+        margin-bottom: 60px;
+    }
+}
+
+@media(max-width: 390px){
+    .a-title{
+        font-size: 30px;
+    }
+
+    .a-card{
+        width: 355px;
+        height: 320px;
+        padding: 20px;
+
+        h1{
+            font-size: 16px;
+            line-height: 20px;
+            padding-top: 15px;
+            padding-left: 30px;
+        }
+
+        img{
+            width: 335px;
+        }
+    }
+
+    .first-row{
+        height: 320px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .second-row{
+        height: 320px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .a-title{
+        margin-bottom: 60px;
+    }
+}

@@ -1,0 +1,122 @@
+.first-banner{
+    margin-top: 150px;
+    width: 100%;
+    height: 460px;
+    border-radius: 33px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../../public/image/first-banner-bg.png');
+}
+
+.f-banner__content{
+    padding: 104px 51px;
+    display: flex;
+    flex-direction: column;
+
+    .f-sub-title{
+        color: #B8C1D2;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: -0.2px;
+    }
+
+    h1{
+        margin-top: 5px;
+        margin-bottom: 22px;
+        font-size: 61px;
+        font-weight: 500;
+        color: #Fff;
+        line-height: 80px;
+        letter-spacing: -0.3px;
+    }
+
+    .pdf-btn{
+        display: flex;
+        color: #FF7629;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #FFf;
+        border-radius: 6px;
+        width: 220px;
+        height: 64px;
+        gap: 16px;
+
+        p{
+            padding-left: 20px;
+            font-size: 16px;
+            font-family: 500;
+        }
+        img{
+            width: 50px;
+            height: 50px;
+        }
+    }
+}
+
+@media(max-width: 1024px){
+    .first-banner{
+        height: 335px;
+        margin-top: 120px;
+    }
+    
+    .f-banner__content{
+        padding: 89px 25px;
+
+        h1{
+            font-size: 48px;
+            line-height: 50px;
+        }
+    }
+}
+
+@media(max-width: 862px){
+    .first-banner{
+        margin-top: 110px;
+    }
+
+    .f-banner__content{
+        padding: 69px 20px;
+
+        h1{
+            font-size: 34px;
+        }
+
+        .pdf-btn{
+            width: 170px;
+            height: 50px;
+            gap: 5px;
+            p{
+                font-size: 14px;
+                padding-left: 15px;
+            }
+
+            img{
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+}
+
+@media(max-width: 522px){
+    .first-banner{
+        height: 270px;
+        margin-top: 90px;
+    }
+
+    .f-banner__content{
+        padding: 49px 15px;
+
+        .f-sub-title{
+            p{
+                font-size: 12px;
+            }
+        }
+
+        h1{
+            font-size: 30px;
+            line-height: 40px;
+        }
+    }
+}
