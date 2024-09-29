@@ -13,7 +13,7 @@
     
     .s-banner__content{
         display: flex;
-        gap: 360px;
+        gap: 380px;
     }
 }
 
@@ -62,6 +62,10 @@
 }
 
 @media(max-width: 1440px){
+    .second-banner{
+        margin-bottom: 190px;
+    }
+
     .s-banner__text{
         font-size: 32px;
         line-height: 40px;
@@ -93,6 +97,7 @@
     .second-banner{
         height: 299px;
         justify-content: start;
+        margin-bottom: 69px;
         
         .s-banner__content{
             display: block;
