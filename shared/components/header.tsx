@@ -76,7 +76,7 @@ export const Header = () => {
                     <div className="gmail__info">
                         <div className="gmail">
                             <img src={email} alt="tel" />
-                            <h2>Info@goskons.ru</h2>
+                            <h2>stroybereke@mail.ru</h2>
                         </div>
                         <p>Круглосуточно</p>
                     </div>
@@ -115,7 +115,7 @@ export const Header = () => {
                         <div className="b-email">
                             <div className="b-mail">
                                 <img src={darkemail} alt="tel" />
-                                <h2>Info@goskons.ru</h2>
+                                <h2>stroybereke@mail.ru</h2>
                             </div>
                                 <p>Круглосуточно</p>
                         </div>
