@@ -1,0 +1,138 @@
+.second-banner{
+    width: 100%;
+    height: 245px;
+    margin-top: 200px;
+    margin-bottom: 240px;
+    background-position: center;
+    background-image: url('../../public/image/second-banner-bg.png');
+    border-radius: 27px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .s-banner__content{
+        display: flex;
+        gap: 360px;
+    }
+}
+
+.s-banner__text{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: -0.5px;
+    color: #Fff
+}
+
+.s-banner__btns{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn{
+    width: 222px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 14px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.text-s{
+    color: #FF7629;
+}
+
+.call-s{
+    color: #00205C;
+}
+
+@media(max-width: 1540px){
+    .s-banner__text{
+        font-size: 38px;
+        line-height: 50px;
+    }
+}
+
+@media(max-width: 1440px){
+    .s-banner__text{
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .btn{
+        width: 180px;
+        height: 60px;
+        font-size: 14px;
+        gap: 16px;
+        padding-left: 8px;
+    }
+}
+
+@media (max-width: 1024px){
+    .second-banner{
+        .s-banner__content{
+            gap: 160px;
+        }
+    }
+
+    .s-banner__text{
+            font-size: 28px;
+            line-height: 36px;
+    }
+}
+
+@media(max-width: 862px){
+    .second-banner{
+        height: 299px;
+        justify-content: start;
+        
+        .s-banner__content{
+            display: block;
+            padding: 15px;
+        }
+    }
+
+    .s-banner__text{
+        width: 350px;
+        line-height: 36px;
+        margin-bottom: 15px;
+    }
+
+    .s-banner__btns{
+        gap: 10px;
+        flex-direction: column;
+        align-items: start;
+    }
+}
+
+@media(max-width: 390px){
+    .s-banner__btns{
+        width: 150px;
+    }
+
+    .btn{
+        font-size: 12px;
+        height: 50px;
+        width: 150px;
+        gap: 13px;
+        border-radius: 3px;
+
+        img{
+            width: 40px;
+        }
+    }
+    
+    .s-banner__text{
+        width: 278px;
+        font-size: 24px;
+        line-height: 36px;
+    }
+}

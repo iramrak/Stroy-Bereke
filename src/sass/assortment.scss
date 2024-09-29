@@ -1,6 +1,5 @@
 .assortment{
     margin-top: 113px;
-    margin-bottom: 200px;
     display: flex;
     flex-direction: column;
 
@@ -205,7 +204,7 @@
     .assortment{
         margin: auto;
         margin-top: 70px;
-        margin-bottom: 82px;
+        margin-bottom: 500px;
     }
 
     .a-title{
@@ -248,7 +247,7 @@
 
 @media(max-width: 390px){
     .assortment{
-        margin-bottom: 52px;
+        margin-bottom: 400px;
     }
 
     .a-sub-title{
