@@ -1,7 +1,7 @@
 import '../../src/sass/header.scss';
 import logo from '../../public/image/logo.png';
 import { useState } from 'react';
-import telbtn from '../../public/image/call-btn.png'
+import telbtn from '../../public/image/call-btn.svg'
 import close from '../../public/image/close.svg'
 import tellsvg from '../../public/image/tell-number.svg'
 import email from '../../public/image/email-llogo.svg'
