@@ -34,7 +34,7 @@ export const Assortment = () => {
                     </div>
                     <div className="a-card a-four">
                         <img src={cardfour} alt="cardfour" />
-                        <h1>Краны (запорно- <br />арматурные) </h1>
+                        <h1>Краны (запорно - арматурные) </h1>
                     </div>
                 </div>
             </div>
