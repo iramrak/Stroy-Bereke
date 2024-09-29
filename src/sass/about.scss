@@ -65,14 +65,17 @@
     p{
         color: #FFf;
     }
-    .about-call__btn{
+    .about-call__btn{   
         width: 184px;
         height: 50px;
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 8px;
+        background-repeat: no-repeat;
         background-image: url('../../public/image/abour-call-btn.svg');
+        position: relative;
+        
         p{
         color: #00205C;
         font-size: 16px;
@@ -89,6 +92,7 @@
     }
     .four{
         width: 450px;
+        
     }
 }
 
@@ -112,6 +116,12 @@
     .four{
         width: 460px;
         display: flex;
+
+        .about-call__btn{
+            margin-left: 231px;
+            margin-top: -14px;
+            border-radius: 3px;
+        }   
     }
     .about__cards{
         margin-top: 0px;
@@ -132,10 +142,7 @@
 @media(max-width: 480px){
     .about{
         .about__title{
-            text-align: center;
-            font-size: 30px;
-            width: 100%;
-            margin: auto;
+            font-size: 26px;
             margin-bottom: 40px;
         }
     }
@@ -161,6 +168,9 @@
         .about-call__btn{
             width: 140px;
             height: 38px;
+            margin-left: 180px;
+            margin-top: -20px;
+            border-radius: 3px;
             p{
                 font-size: 14px;
             }

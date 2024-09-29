@@ -12,8 +12,10 @@
     justify-content: center;
     
     .s-banner__content{
+        width: 90%;
         display: flex;
-        gap: 380px;
+        justify-content: space-between;
+
     }
 }
 

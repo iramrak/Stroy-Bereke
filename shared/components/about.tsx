@@ -11,7 +11,7 @@ export const About = () => {
             <p>[01] - О компании</p>
         </div>
         <div className="about__title">
-            <h2><span>БерекеСтрой</span>  — ваш надежный поставщик <br /> стройматериалов с  <br />широким ассортиментом</h2>
+            <h2><span>БерекеСтрой</span>  — ваш надежный <br />  поставщик стройматериалов с  <br />широким ассортиментом</h2>
         </div>
         <div className="about__cards">
             <div className="card one">

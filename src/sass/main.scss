@@ -32,8 +32,9 @@
         height: 70px;
         display: flex;
         align-items: center;
-        justify-content: center;
-        gap: 24px;
+        justify-content: space-between;
+        padding-left: 21px;
+        padding-right: 8px;
         background-color: #48719A;
         border-radius: 6px;
         font-size: 16px;
@@ -78,8 +79,8 @@
             height: 65px;
             display: flex;
             align-items: center;
-            justify-content: center;
-            gap: 20px;
+            padding-left: 10px;
+            padding-right: 6px;
             background-color: #48719A;
             border-radius: 6px;
             font-size: 14px;
@@ -112,8 +113,8 @@
             height: 50px;
             display: flex;
             align-items: center;
-            justify-content: center;
-            gap: 9px;
+            padding-left: 7px;
+            padding-right: 5px;
             background-color: #48719A;
             border-radius: 3px;
             font-size: 12px;
