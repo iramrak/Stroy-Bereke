@@ -56,7 +56,9 @@ export const Header = () => {
                 <img src={telbtn} alt="call btn" className='call-btn'/>
                 <ul className="navbar">
                     {Links?.map((link) => (
-                        <li key={link.id}>{link.name}</li>
+                        <li>
+                            <a key={link.id} href={link.href}>{link.name}</a>
+                        </li>
                     ))}
                 </ul>
                 {/*logo*/}

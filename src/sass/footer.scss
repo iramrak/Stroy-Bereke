@@ -1,0 +1,136 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu__conatacts{
+    display: none;
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.f-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+
+    font-size: 33px;
+    font-weight: 500;
+
+    span{
+        font-size: 28px;
+        font-weight: 400;
+    }
+    img{
+        width: 98px;
+        height: 41px;
+    }
+}
+
+.footer-navbar{
+    display: flex;
+    align-items: center;
+    display: flex;
+    gap: 60px;
+    a{
+       color: #00205C;
+       font-size: 20px;
+       font-weight: 400;
+    }
+    
+}
+
+.footer-btn{
+    display: flex;
+    align-items: center;
+    background-color: #00205C;
+    border-radius: 38px;
+    p{
+        padding: 20px 50px;
+        color: #FFf;
+        letter-spacing: -0.5px;
+    }
+}
+
+.footer-des{
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #6D6D6D;
+    a{
+        color: #6D6D6D;
+    }
+}
+
+.m-line{
+    display: none;  
+}
+
+@media (max-width: 1024px) {
+    .line{
+        height: 1px;
+        width: 100%;
+    }
+    .f-logo{
+        h1{
+            font-size: 24px;
+        }
+        span{
+            font-size: 22px;
+        }
+        img{
+            width: 88px;
+            height: 35px;
+        }
+    }
+    .footer-nav{
+        padding: 10px 10px;
+    }
+    .footer-navbar{
+        gap: 30px;
+
+        a{
+            font-size: 18px;
+        }
+    }
+    .footer-btn{
+        p{
+            padding: 15px 40px;
+        }
+    }
+}
+
+@media (max-width: 862px) {
+    .m-line{
+        display: block;
+        width: 100%;
+        height: 1px;
+        margin-bottom: 40px;
+    }
+
+    .menu__conatacts{
+        display: flex;
+        margin-bottom: 30px;
+    }
+
+    .footer-nav{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .footer-navbar{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer-des{
+        flex-direction: column;
+        gap: 20px;
+    }
+}

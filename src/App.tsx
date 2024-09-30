@@ -1,5 +1,5 @@
 import './App.scss'
-import { Main , About, FirstBanner, Assortment, SecondBanner} from '../shared/components';
+import { Main , About, FirstBanner, Assortment, SecondBanner, Footer} from '../shared/components';
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <FirstBanner />
       <Assortment />
       <SecondBanner />
+      <Footer />
     </div>
   )
 }
