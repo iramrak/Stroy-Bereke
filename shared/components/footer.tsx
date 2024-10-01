@@ -8,22 +8,22 @@ export const Footer = () => {
     const Links = [
         {
             id: '1',
-            href: '#',
-            name: 'О нас',
+            href: '#about',
+            name: 'О нас'   
         },
         {
             id: '2',
-            href: '#',
+            href: '#assortment',
             name: 'Ассортимент'   
         },
         {
             id: '3',
-            href: '#',
+            href: '#contact',
             name: 'Контакты'   
         },
         {
             id: '4',
-            href: '#',
+            href: 'https://drive.google.com/file/d/1G9JtMvq76Ynxev6tQAR9Fz4uYRJL-8wx/view?usp=drive_link',
             name: 'Скачать Прайс-лист(PDF)'
         }
     ]
