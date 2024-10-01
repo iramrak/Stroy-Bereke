@@ -7,7 +7,7 @@ import wapp from '../../public/image/whatsapp.svg'
 import darknum from '../../public/image/tell-num-black.png'
 import close from '../../public/image/close.svg'
 import darkemail from '../../public/image/email-logo-dark.png'
-import telbtn from '../../public/image/call-btn.svg'
+import { BsTelephoneFill } from "react-icons/bs";
 
 const Links = [
     {
@@ -63,7 +63,9 @@ export const StickyHead = () => {
     return (
     <div className={fix ? 'sticky' : 'sticky-hidden'}>
         <nav className='sticky-nav'>
-            <img src={telbtn} alt="call btn" className='call-btn'/>
+                <div className="call-btn">
+                    <BsTelephoneFill color='#Fff'/>
+                </div>
             <ul className="navbar-sticky">
                     {Links?.map((link) => (
                         <li>

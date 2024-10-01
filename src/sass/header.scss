@@ -268,7 +268,12 @@ ul{
     
     .call-btn{
         display: flex;
+        align-items: center;
+        justify-content: center;
         width: 57px;
+        height: 57px;
+        border-radius: 50px;
+        background-color: #00205C;
     }
 
     .menu__conatacts{

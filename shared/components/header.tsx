@@ -1,7 +1,7 @@
 import '../../src/sass/header.scss';
 import logo from '../../public/image/logo.png';
 import { useState } from 'react';
-import telbtn from '../../public/image/call-btn.svg'
+import { BsTelephoneFill } from "react-icons/bs";
 import close from '../../public/image/close.svg'
 import tellsvg from '../../public/image/tell-number.svg'
 import email from '../../public/image/email-llogo.svg'
@@ -53,7 +53,9 @@ export const Header = () => {
         <header>
             {/* left side (navbar) */}
             <nav className='nav'>
-                <img src={telbtn} alt="call btn" className='call-btn'/>
+                <div className="call-btn">
+                    <BsTelephoneFill/>
+                </div>
                 <ul className="navbar">
                     {Links?.map((link) => (
                         <li>

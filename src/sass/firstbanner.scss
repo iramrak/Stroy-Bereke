@@ -8,6 +8,17 @@
     background-image: url('../../public/image/first-banner-bg.png');
 }
 
+.pdf-icon{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    background-color: #FF7629;
+    color: #FFf;
+}
+
 .f-banner__content{
     padding: 104px 51px;
     display: flex;
@@ -80,6 +91,12 @@
 
         h1{
             font-size: 34px;
+        }
+
+        .pdf-icon{
+            width: 40px;
+            height: 40px;
+            border-radius: 4px;
         }
 
         .pdf-btn{

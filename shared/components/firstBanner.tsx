@@ -1,5 +1,5 @@
 import '../../src/sass/firstbanner.scss';
-import pdficon from '../../public/image/pfd-btn.svg'
+import { LuDownload } from "react-icons/lu";
 
 export const FirstBanner = () => {
   return (
@@ -12,7 +12,9 @@ export const FirstBanner = () => {
             <a href="#">
                 <div className="pdf-btn">
                     <p>Скачать в PDF</p>
-                    <img src={pdficon} alt="pdficon" />
+                    <div className="pdf-icon">
+                        <LuDownload />
+                    </div>
                 </div>
             </a>
         </div>

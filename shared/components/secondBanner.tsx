@@ -1,6 +1,7 @@
 import '../../src/sass/secondBanner.scss';
 import arrpwbtn from '../../public/image/text-arrow.svg'
-import callbtn from '../../public/image/call-s-btn.svg'
+import { BsTelephoneFill } from "react-icons/bs";
+
 
 export const SecondBanner = () => {
   return (
@@ -20,7 +21,9 @@ export const SecondBanner = () => {
               <a href="#">
                 <div className="call-s btn">
                   <p>Позвонить нам</p>
-                  <img src={callbtn} alt="callbtn" />
+                  <div className="callbtn">
+                    <BsTelephoneFill color='#FFf'/>
+                  </div>
                 </div>
               </a> 
             </div>
