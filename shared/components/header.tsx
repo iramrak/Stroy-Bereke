@@ -30,22 +30,22 @@ export const Header = () => {
     const Links = [
         {
             id: '1',
-            href: '#',
+            href: '#about',
             name: 'О нас'   
         },
         {
             id: '2',
-            href: '#',
+            href: '#assortment',
             name: 'Ассортимент'   
         },
         {
             id: '3',
-            href: '#',
+            href: '#contact',
             name: 'Контакты'   
         },
         {
             id: '4',
-            href: '#',
+            href: 'https://drive.google.com/file/d/1G9JtMvq76Ynxev6tQAR9Fz4uYRJL-8wx/view?usp=drive_link',
             name: 'Скачать Прайс-лист(PDF)'
         }
     ]
@@ -107,7 +107,9 @@ export const Header = () => {
                     </div>
                     <ul className="menu__nav">
                         {Links?.map((link) => (
-                        <li key={link.id}>{link.name}</li>
+                         <li>
+                         <a key={link.id} href={link.href}>{link.name}</a>
+                        </li>
                         ))}
                     </ul>
                     <div className="menu__conatacts">
@@ -133,7 +135,7 @@ export const Header = () => {
                                     Написать нам
                                 </div>
                             </a>
-                            <a href="#">
+                            <a href="https://wa.me/+77772786098" target='_blank'>
                                 <div className="b-wapp-btn">
                                     <img src={wapp} alt="whatsApp" />
                                 </div>

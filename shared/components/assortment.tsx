@@ -6,7 +6,7 @@ import cardfour from '../../public/image/a-card-four.png';
 
 export const Assortment = () => {
     return(
-        <section className="assortment">
+        <section className="assortment" id='assortment'>
             <div className="a-sub-title">
                 <p>[03] - Ассортимент</p>
             </div>

@@ -5,7 +5,7 @@ import { BsTelephoneFill } from "react-icons/bs";
 
 export const SecondBanner = () => {
   return (
-    <section className="second-banner">
+    <section className="second-banner" id='contact'>
         <div className="s-banner__content">
             <div className="s-banner__text">
               <h1>Хотите узнать больше? <br /> Напишите нам или позвоните</h1>

@@ -12,22 +12,22 @@ import { BsTelephoneFill } from "react-icons/bs";
 const Links = [
     {
         id: '1',
-        href: '#',
+        href: '#about',
         name: 'О нас'   
     },
     {
         id: '2',
-        href: '#',
+        href: '#assortment',
         name: 'Ассортимент'   
     },
     {
         id: '3',
-        href: '#',
+        href: '#contact',
         name: 'Контакты'   
     },
     {
         id: '4',
-        href: '#',
+        href: 'https://drive.google.com/file/d/1G9JtMvq76Ynxev6tQAR9Fz4uYRJL-8wx/view?usp=drive_link',
         name: 'Скачать Прайс-лист(PDF)'
     }
 ]
@@ -69,7 +69,7 @@ export const StickyHead = () => {
             <ul className="navbar-sticky">
                     {Links?.map((link) => (
                         <li>
-                            <a key={link.id} href={link.href}>{link.name}</a>
+                            <a key={link.id} href={link.href}>{link.name}</a>x
                         </li>
                     ))}
             </ul>
@@ -114,7 +114,9 @@ export const StickyHead = () => {
                     </div>
                     <ul className="menu__nav">
                         {Links?.map((link) => (
-                        <li key={link.id}>{link.name}</li>
+                        <li>
+                            <a key={link.id} href={link.href} onClick={updateMenu}>{link.name}</a>
+                       </li>
                         ))}
                     </ul>
                     <div className="menu__conatacts">
