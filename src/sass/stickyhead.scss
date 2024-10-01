@@ -12,7 +12,8 @@
     position: sticky;
     top: 0;
     z-index: 99;
-    transition: 0.2s ease-in-out;
+    animation: showup 0.3s ease-in-out forwards;
+
 }
 
 .sticky-nav{
@@ -54,6 +55,16 @@ ul{
     padding: 20px 50px;
     border-radius: 38px;
     font-weight: 500;
+}
+
+@keyframes showup{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -126,6 +137,7 @@ ul{
         right: 0;
         z-index: 1;
         transition: 0.3s ease-in-out;
+        animation: showup 0.2s ease-in-out forwards;
     }
 
    
