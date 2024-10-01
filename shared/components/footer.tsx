@@ -44,18 +44,20 @@ export const Footer = () => {
                     ))}
                 </ul>
 
-                <a href="#">
+                <a href="https://wa.me/+77772786098" target='_blank'>
                     <div className="footer-btn">
                         <p>Написать нам</p>
                     </div>
                 </a>
                 <div className="menu__conatacts">
                         <div className="b_tel__num">
+                        <a href="tel:+77011829505"  target='_blank'>
                             <div className="b-num">
                                 <img src={darknum} alt="tel" />
                                 <h2>+7 701 182 9505</h2>
                             </div>
                             <p>с 9:00 до 21:00</p>
+                        </a>
                         </div>
                         <div className="b-email">
                             <div className="b-mail">

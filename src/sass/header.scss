@@ -40,6 +40,9 @@ ul{
     display: flex;
     align-items: center;
     gap: 35px;
+    a{
+        color: #Fff;
+    }
 }
 
 .tel__num{
@@ -278,7 +281,9 @@ ul{
 
     .menu__conatacts{
         display: flex;
-
+        a{
+            color: #00205C;
+        }
         flex-direction: column;
         gap: 25px;
         padding: 1px 30px;

@@ -70,6 +70,7 @@ export const Header = () => {
                 </div>
                 {/*right side contancts and btns*/}
                 <div className="contacts">
+                    <a href="tel:+77011829505"  target='_blank'>
                     <div className="tel__num">
                         <div className="num">
                             <img src={tellsvg} alt="tel" />
@@ -77,6 +78,7 @@ export const Header = () => {
                         </div>
                         <p>с 9:00 до 21:00</p>
                     </div>
+                    </a>    
                     <div className="gmail__info">
                         <div className="gmail">
                             <img src={email} alt="tel" />
@@ -84,7 +86,7 @@ export const Header = () => {
                         </div>
                         <p>Круглосуточно</p>
                     </div>
-                    <a href="#">
+                    <a href="https://wa.me/+77772786098" target='_blank'>
                         <div className="header__btn">
                             <p>Написать нам</p>
                         </div>
@@ -110,11 +112,13 @@ export const Header = () => {
                     </ul>
                     <div className="menu__conatacts">
                         <div className="b_tel__num">
-                            <div className="b-num">
-                                <img src={darknum} alt="tel" />
-                                <h2>+7 701 182 9505</h2>
-                            </div>
+                            <a href="tel:+77011829505"  target='_blank'>
+                                <div className="b-num">
+                                    <img src={darknum} alt="tel" />
+                                    <h2>+7 701 182 9505</h2>
+                                </div>
                             <p>с 9:00 до 21:00</p>
+                            </a>
                         </div>
                         <div className="b-email">
                             <div className="b-mail">
@@ -124,7 +128,7 @@ export const Header = () => {
                                 <p>Круглосуточно</p>
                         </div>
                         <div className="b-btns">
-                            <a href="#">
+                            <a href="tel:+77011829505"  target='_blank'>
                                 <div className="b-btn">
                                     Написать нам
                                 </div>
