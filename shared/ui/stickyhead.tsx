@@ -1,15 +1,37 @@
-import '../../src/sass/header.scss';
 import logo from '../../public/image/logo.png';
 import { useState } from 'react';
-import telbtn from '../../public/image/call-btn.svg'
-import close from '../../public/image/close.svg'
-import tellsvg from '../../public/image/tell-number.svg'
-import email from '../../public/image/email-llogo.svg'
+import tellsvg from '../../public/image/tell-number-dark.svg'
+import email from '../../public/image/email-llogo-dark.svg'
+import '../../src/sass/stickyhead.scss';
 import wapp from '../../public/image/whatsapp.svg'
 import darknum from '../../public/image/tell-num-black.png'
+import close from '../../public/image/close.svg'
 import darkemail from '../../public/image/email-logo-dark.png'
+import telbtn from '../../public/image/call-btn.svg'
 
-export const Header = () => {
+const Links = [
+    {
+        id: '1',
+        href: '#',
+        name: 'О нас'   
+    },
+    {
+        id: '2',
+        href: '#',
+        name: 'Ассортимент'   
+    },
+    {
+        id: '3',
+        href: '#',
+        name: 'Контакты'   
+    },
+    {
+        id: '4',
+        href: '#',
+        name: 'Скачать Прайс-лист(PDF)'
+    }
+]
+export const StickyHead = () => {
 
     const [burger__class , setBurgerClass] = useState("burger-bar unclicked")
     const [menu_class, setMenuClass] = useState("menu hidden")
@@ -27,47 +49,33 @@ export const Header = () => {
         setIsMenuClicked(!isMenuClicked)
     }
 
-    const Links = [
-        {
-            id: '1',
-            href: '#',
-            name: 'О нас'   
-        },
-        {
-            id: '2',
-            href: '#',
-            name: 'Ассортимент'   
-        },
-        {
-            id: '3',
-            href: '#',
-            name: 'Контакты'   
-        },
-        {
-            id: '4',
-            href: '#',
-            name: 'Скачать Прайс-лист(PDF)'
+    const [fix, setFix] = useState(false);
+
+    function onScroll() {
+        if (window.scrollY > 600) {
+            setFix(true);
+        } else {
+            setFix(false);
         }
-    ]
+    }
+  
+    window.addEventListener('scroll', onScroll);
     return (
-        <header>
-            {/* left side (navbar) */}
-            <nav className='nav'>
-                <img src={telbtn} alt="call btn" className='call-btn'/>
-                <ul className="navbar">
+    <div className={fix ? 'sticky' : 'sticky-hidden'}>
+        <nav className='sticky-nav'>
+            <img src={telbtn} alt="call btn" className='call-btn'/>
+            <ul className="navbar-sticky">
                     {Links?.map((link) => (
                         <li>
                             <a key={link.id} href={link.href}>{link.name}</a>
                         </li>
                     ))}
-                </ul>
-                {/*logo*/}
-                <div className="logo">
-                    <img src={logo} alt='logo'/>
-                    <h1>Береке<span>Строй</span></h1>
-                </div>
-                {/*right side contancts and btns*/}
-                <div className="contacts">
+            </ul>
+            <div className="logo-s">
+                <img src={logo} alt="logo" />
+                <h1>Береке<span>Строй</span></h1>
+            </div>
+            <div className="contacts">
                     <div className="tel__num">
                         <div className="num">
                             <img src={tellsvg} alt="tel" />
@@ -83,14 +91,13 @@ export const Header = () => {
                         <p>Круглосуточно</p>
                     </div>
                     <a href="#">
-                        <div className="header__btn">
+                        <div className="header__btn-s">
                             <p>Написать нам</p>
                         </div>
                     </a>
                 </div>
-                
 
-               <div className="burger-menu" onClick={updateMenu}>
+                <div className="burger-menu" onClick={updateMenu}>
                     <div className={burger__class}></div>
                     <div className={burger__class}></div>
                     <div className={burger__class}></div>
@@ -135,8 +142,7 @@ export const Header = () => {
                         </div>
                     </div>
                </div>
-            </nav>
-            
-        </header>
-    );
+        </nav>
+    </div>
+  );
 };

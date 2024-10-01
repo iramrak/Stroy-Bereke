@@ -1,6 +1,7 @@
 import { Header } from './header';
 import '../../src/sass/main.scss';
-import defBtn from '../../public/image/main-def-btn.png'
+import defBtn from '../../public/image/main-def-btn.png';
+
 
 export const Main = () => {
   return (
