@@ -63,9 +63,12 @@ export const StickyHead = () => {
     return (
     <div className={fix ? 'sticky' : 'sticky-hidden'}>
         <nav className='sticky-nav'>
+            <a href="tel:+77011829505"  target='_blank' className='call-btn-a'>
                 <div className="call-btn">
                     <BsTelephoneFill color='#Fff'/>
                 </div>
+            </a>
+
             <ul className="navbar-sticky">
                     {Links?.map((link) => (
                         <li>
@@ -143,7 +146,7 @@ export const StickyHead = () => {
                                     Написать нам
                                 </div>
                             </a>
-                            <a href="tel:+77011829505"  target='_blank'>
+                            <a href="https://wa.me/+77772786098" target='_blank'>
                                 <div className="b-wapp-btn">
                                     <img src={wapp} alt="whatsApp" />
                                 </div>

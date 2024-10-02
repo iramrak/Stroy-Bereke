@@ -12,6 +12,13 @@ ul{
     align-items: center;
 }
 
+.call-btn-a{
+    color: #Fff;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
 .navbar{
     display: flex;
     align-items: center;
@@ -193,6 +200,13 @@ ul{
 
     .navbar{
         display: none;
+    }
+    
+    .call-btn-a{
+        color: #Fff;
+        padding: 0;
+        margin: 0;
+        display: flex;
     }
 
     .burger-menu {

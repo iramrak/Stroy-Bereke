@@ -53,9 +53,11 @@ export const Header = () => {
         <header>
             {/* left side (navbar) */}
             <nav className='nav'>
+            <a href="tel:+77011829505"  target='_blank' className='call-btn-a'>
                 <div className="call-btn">
                     <BsTelephoneFill/>
                 </div>
+            </a>
                 <ul className="navbar">
                     {Links?.map((link) => (
                         <li>
