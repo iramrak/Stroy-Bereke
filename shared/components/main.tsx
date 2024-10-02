@@ -9,7 +9,7 @@ export const Main = () => {
         <Header />  
         <div className="main__content">
             <h1>
-                <span>БерекеСтрой</span> -  Стройматериалы для <br /> вашего бизнеса по доступным ценам
+                <span>БерекеСтрой</span> - Стройматериалы для вашего  <br />бизнеса по доступным ценам в Казахстане
             </h1>
             <a href="https://wa.me/+77772786098" target='_blank'>
                 <div className="main-def__btn">

@@ -8,7 +8,7 @@ export const SecondBanner = () => {
     <section className="second-banner" id='contact'>
         <div className="s-banner__content">
             <div className="s-banner__text">
-              <h1>Хотите узнать больше? <br /> Напишите нам или позвоните</h1>
+              <h1>Хотите узнать больше? <br /> Напишите нам на WhatsApp или позвоните</h1>
             </div>
             <div className="s-banner__btns">
             <a href="https://wa.me/+77772786098" target='_blank'>

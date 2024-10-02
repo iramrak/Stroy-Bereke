@@ -17,7 +17,7 @@ export const Assortment = () => {
                 <div className="first-row">
                     <div className="a-card a-one">
                         <img src={cardone} alt="cardone" />
-                        <h1>Строительные <br /> инструменты и прочее</h1>
+                        <h1>Строительные инструменты <br /> и хозтовары</h1>
                     </div>
                     <div className="a-card a-two">
                         <img src={cardtwo} alt="cardtwo" />
@@ -30,7 +30,7 @@ export const Assortment = () => {
                     <div className="space"></div>
                     <div className="a-card a-three">
                         <img src={cardthree} alt="cardthree" />
-                        <h1>Садовые, огородные <br /> товары</h1>
+                        <h1>Садовые, огородные <br /> товары, спец одежда</h1>
                     </div>
                     <div className="a-card a-four">
                         <img src={cardfour} alt="cardfour" />

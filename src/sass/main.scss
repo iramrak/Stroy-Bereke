@@ -11,6 +11,7 @@
     color: #Fff;
 }
 
+
 .main__content{
     margin-top: 264px;
     display: flex;
@@ -92,9 +93,9 @@
 
 @media(max-width: 768px) {
     .main__content{
-
+        
         h1{
-            width: 500px;
+            width: 550px;
             font-size: 34px;
         }
     }
@@ -103,11 +104,12 @@
 @media(max-width: 522px) {
     .main__content{
         h1{
-            width: 306px;
-            line-height: 40px;
+            width: 100%;
+            line-height: 38px;
             letter-spacing: -0.3px;
-            font-size: 30px;
+            font-size: 28px;
         }
+        
         .main-def__btn{
             width: 200px;
             height: 50px;

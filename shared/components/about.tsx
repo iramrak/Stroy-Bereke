@@ -11,7 +11,7 @@ export const About = () => {
             <p>[01] - О компании</p>
         </div>
         <div className="about__title">
-            <h2><span>БерекеСтрой</span>  — ваш надежный <br />  поставщик стройматериалов с  <br />широким ассортиментом</h2>
+            <h1><span>БерекеСтрой</span> — ваш надежный <br /> поставщик стройматериалов <br /> оптом/в розницу с широким <br /> ассортиментом</h1>
         </div>
         <div className="about__cards">
             <div className="card one">
@@ -30,7 +30,7 @@ export const About = () => {
                 <div className="card__img">
                     <img src={storei} alt="kar" />
                 </div>
-                <p>Все материалы в наличии <br />в Астане для быстрой отправки</p>
+                <p>Все материалы в наличии <br /> в Астане для быстрой <br /> доставки</p>
             </div>
             <div className="card four">
             <a href="https://wa.me/+77772786098" target='_blank'>
