@@ -11,7 +11,7 @@ export const Main = () => {
             <h1>
                 <span>БерекеСтрой</span> - Стройматериалы для вашего  <br />бизнеса по доступным ценам в Казахстане
             </h1>
-            <a href="https://wa.me/+77772786098" target='_blank'>
+            <a href='/whatsapp' target='_blank' className='whataspp-btn'>
                 <div className="main-def__btn">
                     Получить консультацию
                     <img src={defBtn} alt="defBtn" />

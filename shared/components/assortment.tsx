@@ -1,8 +1,8 @@
 import '../../src/sass/assortment.scss';
-import cardone from '../../public/image/a-card-one.png';
-import cardtwo from '../../public/image/a-card-two.png';
-import cardthree from '../../public/image/a-card-three.png';
-import cardfour from '../../public/image/a-card-four.png';
+import cardone from '../../public/image/a-card-one.webp';
+import cardtwo from '../../public/image/a-card-two.webp';
+import cardthree from '../../public/image/a-card-three.webp';
+import cardfour from '../../public/image/a-card-four.webp';
 
 export const Assortment = () => {
     return(

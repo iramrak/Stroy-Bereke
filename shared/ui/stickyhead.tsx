@@ -97,7 +97,7 @@ export const StickyHead = () => {
                         </div>
                         <p>Круглосуточно</p>
                     </div>
-                    <a href="tel:+77011829505"  target='_blank'>
+                    <a href='/whatsapp' target='_blank' className='whataspp-btn'>
                         <div className="header__btn-s">
                             <p>Написать нам</p>
                         </div>
@@ -141,12 +141,12 @@ export const StickyHead = () => {
                                 <p>Круглосуточно</p>
                         </div>
                         <div className="b-btns">
-                            <a href="#">
+                            <a href='/whatsapp' target='_blank' className='whataspp-btn'>
                                 <div className="b-btn">
                                     Написать нам
                                 </div>
                             </a>
-                            <a href="https://wa.me/+77772786098" target='_blank'>
+                            <a href='/whatsapp' target='_blank' className='whataspp-btn'>
                                 <div className="b-wapp-btn">
                                     <img src={wapp} alt="whatsApp" />
                                 </div>
