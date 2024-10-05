@@ -44,7 +44,7 @@ export const Footer = () => {
                     ))}
                 </ul>
 
-                <a href='/whatsapp' target='_blank' className='whataspp-btn'>
+                <a href="https://wa.me/77772786098" target='_blank' className='whataspp-btn'>
                     <div className="footer-btn">
                         <p>Написать нам</p>
                     </div>

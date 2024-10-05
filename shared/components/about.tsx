@@ -33,7 +33,7 @@ export const About = () => {
                 <p>Все материалы в наличии <br /> в Астане для быстрой <br /> доставки</p>
             </div>
             <div className="card four">
-            <a href='/whatsapp' target='_blank' className='whataspp-btn'>
+            <a href="https://wa.me/77772786098" target='_blank' className='whataspp-btn'>
                     <div className="about-call__btn">
                         <p>Написать нам</p>
                         <img src={arrow} alt="arrow" />
