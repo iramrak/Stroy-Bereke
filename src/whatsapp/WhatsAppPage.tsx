@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 
 const WhatsAppPage = () => {
   useEffect(() => {
-    const phoneNumber = '+77772786098';
+    const phoneNumber = '+URNUMBER';
     const message = 'Здравствуйте! Я хотел бы получить консультацию.';
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
