@@ -53,7 +53,7 @@ export const Header = () => {
         <header>
             {/* left side (navbar) */}
             <nav className='nav'>
-            <a href="tel:+77011829505"  target='_blank' className='call-btn-a'>
+            <a href="tel:+URNUM"  target='_blank' className='call-btn-a'>
                 <div className="call-btn">
                     <BsTelephoneFill/>
                 </div>
@@ -76,7 +76,7 @@ export const Header = () => {
                     <div className="tel__num">
                         <div className="num">
                             <img src={tellsvg} alt="tel" />
-                            <h2>+7 701 182 9505</h2>
+                            <h2>+7 777 77 7777</h2>
                         </div>
                         <p>с 9:00 до 21:00</p>
                     </div>
@@ -116,10 +116,10 @@ export const Header = () => {
                     </ul>
                     <div className="menu__conatacts">
                         <div className="b_tel__num">
-                            <a href="tel:+77011829505"  target='_blank'>
+                            <a href="tel:+URNUM"  target='_blank'>
                                 <div className="b-num">
                                     <img src={darknum} alt="tel" />
-                                    <h2>+7 701 182 9505</h2>
+                                    <h2>+7 777 777 7777</h2>
                                 </div>
                             <p>с 9:00 до 21:00</p>
                             </a>
