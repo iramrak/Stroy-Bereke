@@ -18,7 +18,7 @@ export const SecondBanner = () => {
                 </div>  
               </a>
 
-              <a href="tel:+77011829505"  target='_blank'>
+              <a href="tel:+URNUM"  target='_blank'>
                 <div className="call-s btn">
                   <p>Позвонить нам</p>
                   <div className="callbtn">
