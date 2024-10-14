@@ -63,7 +63,7 @@ export const StickyHead = () => {
     return (
     <div className={fix ? 'sticky' : 'sticky-hidden'}>
         <nav className='sticky-nav'>
-            <a href="tel:+77011829505"  target='_blank' className='call-btn-a'>
+            <a href="tel:+URNUM"  target='_blank' className='call-btn-a'>
                 <div className="call-btn">
                     <BsTelephoneFill color='#Fff'/>
                 </div>
@@ -82,10 +82,10 @@ export const StickyHead = () => {
             </div>
             <div className="contacts">
                     <div className="tel__num">
-                    <a href="tel:+77011829505"  target='_blank'>
+                    <a href="tel:+URNUM"  target='_blank'>
                         <div className="num">
                             <img src={tellsvg} alt="tel" />
-                            <h2>+7 701 182 9505</h2>
+                            <h2>+7 777 777 7777</h2>
                         </div>
                         <p>с 9:00 до 21:00</p>
                     </a>
@@ -124,10 +124,10 @@ export const StickyHead = () => {
                     </ul>
                     <div className="menu__conatacts">
                         <div className="b_tel__num">
-                        <a href="tel:+77011829505"  target='_blank'>
+                        <a href="tel:+URNUM"  target='_blank'>
                             <div className="b-num">
                                 <img src={darknum} alt="tel" />
-                                <h2>+7 701 182 9505</h2>
+                                <h2>+7 777 777 7777</h2>
                             </div>
                             <p>с 9:00 до 21:00</p>
                         </a>
