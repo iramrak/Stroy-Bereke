@@ -51,10 +51,10 @@ export const Footer = () => {
                 </a>
                 <div className="menu__conatacts">
                         <div className="b_tel__num">
-                        <a href="tel:+77011829505"  target='_blank'>
+                        <a href="tel:+URNUM"  target='_blank'>
                             <div className="b-num">
                                 <img src={darknum} alt="tel" />
-                                <h2>+7 701 182 9505</h2>
+                                <h2>+7 777 777 7777</h2>
                             </div>
                             <p>с 9:00 до 21:00</p>
                         </a>
