@@ -72,11 +72,11 @@ export const Header = () => {
                 </div>
                 {/*right side contancts and btns*/}
                 <div className="contacts">
-                    <a href="tel:+77088632472"  target='_blank'>
+                    <a href="#"  target='_blank'>
                     <div className="tel__num">
                         <div className="num">
                             <img src={tellsvg} alt="tel" />
-                            <h2>+7 708 863 2472</h2>
+                            <h2>+7 708 747 78 78</h2>
                         </div>
                         <p>с 9:00 до 21:00</p>
                     </div>
@@ -88,7 +88,7 @@ export const Header = () => {
                         </div>
                         <p>Круглосуточно</p>
                     </div>
-                    <a href="https://wa.me/77772786098" target='_blank' className='whataspp-btn'>
+                    <a href="#" target='_blank' className='whataspp-btn'>
                         <div className="header__btn">
                             <p>Написать нам</p>
                         </div>
@@ -116,10 +116,10 @@ export const Header = () => {
                     </ul>
                     <div className="menu__conatacts">
                         <div className="b_tel__num">
-                            <a href="tel:+77088632472"  target='_blank'>
+                            <a href="#"  target='_blank'>
                                 <div className="b-num">
                                     <img src={darknum} alt="tel" />
-                                    <h2>+7 708 863 2472</h2>
+                                    <h2>+7 708 747 78 78</h2>
                                 </div>
                             <p>с 9:00 до 21:00</p>
                             </a>
@@ -132,12 +132,12 @@ export const Header = () => {
                                 <p>Круглосуточно</p>
                         </div>
                         <div className="b-btns">
-                            <a href="https://wa.me/77772786098" target='_blank' className='whataspp-btn'>
+                            <a href="#" target='_blank' className='whataspp-btn'>
                                 <div className="b-btn">
                                     Написать нам
                                 </div>
                             </a>
-                            <a href="https://wa.me/77772786098" target='_blank' className='whataspp-btn'>
+                            <a href="#" target='_blank' className='whataspp-btn'>
                                 <div className="b-wapp-btn">
                                     <img src={wapp} alt="whatsApp" />
                                 </div>

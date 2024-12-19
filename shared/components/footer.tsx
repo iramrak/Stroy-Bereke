@@ -44,17 +44,17 @@ export const Footer = () => {
                     ))}
                 </ul>
 
-                <a href="https://wa.me/77772786098" target='_blank' className='whataspp-btn'>
+                <a href="#" target='_blank' className='whataspp-btn'>
                     <div className="footer-btn">
                         <p>Написать нам</p>
                     </div>
                 </a>
                 <div className="menu__conatacts">
                         <div className="b_tel__num">
-                        <a href="tel:+77088632472"  target='_blank'>
+                        <a href="#"  target='_blank'>
                             <div className="b-num">
                                 <img src={darknum} alt="tel" />
-                                <h2>+7 708 863 2472</h2>
+                                <h2>+7 708 747 78 78</h2>
                             </div>
                             <p>с 9:00 до 21:00</p>
                         </a>
