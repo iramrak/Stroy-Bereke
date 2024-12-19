@@ -23,7 +23,7 @@ export const Footer = () => {
         },
         {
             id: '4',
-            href: 'https://drive.google.com/file/d/1G9JtMvq76Ynxev6tQAR9Fz4uYRJL-8wx/view?usp=drive_link',
+            href: 'https://drive.google.com/file/d/1jPrkBd1mV6an5DsHrOE5N65bMgWoqDuK/view?usp=sharing',
             name: 'Скачать Прайс-лист(PDF)'
         }
     ]
@@ -51,10 +51,10 @@ export const Footer = () => {
                 </a>
                 <div className="menu__conatacts">
                         <div className="b_tel__num">
-                        <a href="tel:+77011829505"  target='_blank'>
+                        <a href="tel:+77088632472"  target='_blank'>
                             <div className="b-num">
                                 <img src={darknum} alt="tel" />
-                                <h2>+7 701 182 9505</h2>
+                                <h2>+7 708 863 2472</h2>
                             </div>
                             <p>с 9:00 до 21:00</p>
                         </a>
