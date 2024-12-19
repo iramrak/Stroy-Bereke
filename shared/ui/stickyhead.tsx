@@ -28,7 +28,7 @@ const Links = [
     {
         id: '4',
         href: 'https://drive.google.com/file/d/1jPrkBd1mV6an5DsHrOE5N65bMgWoqDuK/view?usp=sharing',
-        name: 'Скачать Прайс-лист(PDF)'
+        name: 'Каталог(PDF)'
     }
 ]
 export const StickyHead = () => {

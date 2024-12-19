@@ -8,7 +8,7 @@ export const FirstBanner = () => {
             <div className="f-sub-title">
                 <p>[02] - Прайс-лист</p>
             </div>
-            <h1>Скачайте наш <br /> Прайс-лист в PDF</h1>
+            <h1>Скачайте наш <br /> Каталог в PDF</h1>
             <a href="https://drive.google.com/file/d/1jPrkBd1mV6an5DsHrOE5N65bMgWoqDuK/view?usp=sharing">
                 <div className="pdf-btn">
                     <p>Скачать в PDF</p>
