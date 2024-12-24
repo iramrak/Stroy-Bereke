@@ -1,6 +1,6 @@
 import '../../src/sass/footer.scss';
 import line from '../../public/image/Horizontal Divider.svg'
-import logo from '../../public/image/logo.png'
+import logo from '../../public/image/sparklux.png'
 import darknum from '../../public/image/tell-num-black.png'
 import darkemail from '../../public/image/email-logo-dark.png'
 
@@ -33,8 +33,8 @@ export const Footer = () => {
             <img src={line} alt="line" className='m-line'/>
             <div className="footer-nav">
                 <div className="f-logo">
+                    <h1>Spark Lux</h1>
                     <img src={logo} alt="logo" />
-                    <h1>Береке<span>Строй</span></h1>
                 </div>
                 <ul className="footer-navbar">
                     {Links?.map((link) => (
@@ -62,7 +62,7 @@ export const Footer = () => {
                         <div className="b-email">
                             <div className="b-mail">
                                 <img src={darkemail} alt="tel" />
-                                <h2>stroybereke@mail.ru</h2>
+                                <h2>sparklux@mail.ru</h2>
                             </div>
                             <p>Круглосуточно</p>
                         </div>
@@ -72,7 +72,7 @@ export const Footer = () => {
             <img src={line} alt="line" className='line'/>
 
             <div className="footer-des">
-                <p>© 2024 Qut-Bereke KZ</p>
+                <p>© Spark lux Professional Tools</p>
                 <a href="#">Разработка сайта - Divine Studio</a>
             </div>
         </div>

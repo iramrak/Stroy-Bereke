@@ -1,4 +1,4 @@
-import logo from '../../public/image/logo.png';
+import logo from '../../public/image/sparklux.png';
 import { useState } from 'react';
 import tellsvg from '../../public/image/tell-number-dark.svg'
 import email from '../../public/image/email-llogo-dark.svg'
@@ -77,8 +77,7 @@ export const StickyHead = () => {
                     ))}
             </ul>
             <div className="logo-s">
-                <img src={logo} alt="logo" />
-                <h1>Береке<span>Строй</span></h1>
+                <img src={logo} alt="logo" width={'220px'}/>
             </div>
             <div className="contacts">
                     <div className="tel__num">
@@ -93,7 +92,7 @@ export const StickyHead = () => {
                     <div className="gmail__info">
                         <div className="gmail">
                             <img src={email} alt="tel" />
-                            <h2>stroybereke@mail.ru</h2>
+                            <h2>sparklux@mail.ru</h2>
                         </div>
                         <p>Круглосуточно</p>
                     </div>
@@ -113,7 +112,7 @@ export const StickyHead = () => {
                     <img src={close} alt="close btn" onClick={updateMenu} className='close-btn'/>
                     <div className="menu__logo">
                         <img src={logo} alt='logo'/>
-                        <h1>Береке<span>Строй</span></h1>
+                        <h1>Spark Lux</h1>
                     </div>
                     <ul className="menu__nav">
                         {Links?.map((link) => (
@@ -136,7 +135,7 @@ export const StickyHead = () => {
                         <div className="b-email">
                             <div className="b-mail">
                                 <img src={darkemail} alt="tel" />
-                                <h2>stroybereke@mail.ru</h2>
+                                <h2>sparklux@mail.ru</h2>
                             </div>
                                 <p>Круглосуточно</p>
                         </div>

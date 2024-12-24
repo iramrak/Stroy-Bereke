@@ -1,5 +1,5 @@
 import '../../src/sass/header.scss';
-import logo from '../../public/image/logo.png';
+import logo from '../../public/image/sparklux.png';
 import { useState } from 'react';
 import { BsTelephoneFill } from "react-icons/bs";
 import close from '../../public/image/close.svg'
@@ -67,8 +67,7 @@ export const Header = () => {
                 </ul>
                 {/*logo*/}
                 <div className="logo">
-                    <img src={logo} alt='logo'/>
-                    <h1>Береке<span>Строй</span></h1>
+                    <img src={logo} alt='logo' className=''width={'220px'} />
                 </div>
                 {/*right side contancts and btns*/}
                 <div className="contacts">
@@ -84,7 +83,7 @@ export const Header = () => {
                     <div className="gmail__info">
                         <div className="gmail">
                             <img src={email} alt="tel" />
-                            <h2>stroybereke@mail.ru</h2>
+                            <h2>sparklux@mail.ru</h2>
                         </div>
                         <p>Круглосуточно</p>
                     </div>
@@ -105,7 +104,6 @@ export const Header = () => {
                     <img src={close} alt="close btn" onClick={updateMenu} className='close-btn'/>
                     <div className="menu__logo">
                         <img src={logo} alt='logo'/>
-                        <h1>Береке<span>Строй</span></h1>
                     </div>
                     <ul className="menu__nav">
                         {Links?.map((link) => (
@@ -127,7 +125,7 @@ export const Header = () => {
                         <div className="b-email">
                             <div className="b-mail">
                                 <img src={darkemail} alt="tel" />
-                                <h2>stroybereke@mail.ru</h2>
+                                <h2>sparklux@mail.ru</h2>
                             </div>
                                 <p>Круглосуточно</p>
                         </div>
