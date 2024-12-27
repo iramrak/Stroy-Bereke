@@ -23,7 +23,7 @@ export const Footer = () => {
         },
         {
             id: '4',
-            href: 'https://drive.google.com/file/d/1G9JtMvq76Ynxev6tQAR9Fz4uYRJL-8wx/view?usp=drive_link',
+            href: 'https://drive.google.com/file/d/1jPrkBd1mV6an5DsHrOE5N65bMgWoqDuK/view?usp=sharing',
             name: 'Скачать Прайс-лист(PDF)'
         }
     ]
